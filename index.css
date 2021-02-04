@@ -3,18 +3,50 @@
   padding: 0;
 }
 
+#h2 {
+  font-weight:bold;
+  font-size: 20px;
+}
+
 #header {
   background-color: lightpink;
   height: 30vh;
+}
+
+
+.head {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-#container {
+#counter {
+  height: 5vh;
+  text-align: left;
+  margin-left:10px
+}
+
+#tries {
+  color:firebrick;
+}
+
+#button {
+  text-align: right;
+  background-color: #6dbbc5; /* Green */
+  border:darkturquoise;
+  color: rgb(8, 8, 8);
+  padding: 15px 20px;
+  margin-left:1300px;
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+  border-radius: 50px;
+
+}
+.container {
   background-color: black;
-  height: 70vh;
+  height: 30vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -24,4 +56,5 @@
   height: 200px;
   width: 200px;
   background-color: aliceblue;
+  display: inline;
 }
